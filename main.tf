@@ -7,3 +7,8 @@ resource "" "name" {
 
   
 }
+
+output  "name" {
+
+  
+}
