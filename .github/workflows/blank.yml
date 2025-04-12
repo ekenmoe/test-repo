@@ -18,9 +18,10 @@ jobs:
 
   test:
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: check uptime
-        run: uptime
+        run: uptime    
       - name: cpu info
         run: nproc
       - name: kernel info
